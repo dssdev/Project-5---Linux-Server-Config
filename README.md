@@ -1,4 +1,5 @@
 IP of VM: 52.11.12.254
+Port 2200
 
 In ~/.ssh add the private key into into grader_key.rsa
 
@@ -30,7 +31,7 @@ BMjMYBZD46dtr6FGtZJDT2vIElBsBw3vdVxxii/muzpKe50IIX7ls6Uj9y7MRAr1
 1RaKbf9f6RKftrZd5DSgM/d5zl+A9O4DsEKVbp2BA9GqXx/xSemX
 -----END RSA PRIVATE KEY-----`
 
-ssh -i ~/.ssh/grader_key.rsa grader@52.11.12.254
+ssh -i ~/.ssh/grader_key.rsa grader@52.11.12.254 -p 2200
 
 Password for sudo is Grader1
 
